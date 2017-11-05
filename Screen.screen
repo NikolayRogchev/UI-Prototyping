@@ -1,0 +1,82 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="fde94a1c-5531-4859-8f3f-8b7a12a7d781">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="be601f65-10d4-4a70-9855-e9d9b6bb569f">
+            <Content.Layers>
+                <Layer Id="57278ee6-dd36-4e9d-b6e5-452812b51392" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="3d1870da-f62a-4c77-a2a6-e7e155711968" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="2d12493e-25f4-4286-a7a3-6d22873c904b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="7ddc665c-dd06-4ddd-bc58-a61c2cb10060" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/05/2017 16:56:17" Id="6f27e742-f4f6-44ad-8313-b276d61055ec">
+            <Scene.KeyFrames>
+                <KeyFrame Id="69e2b3e3-fc0f-41df-a996-0df6e95054a1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="57278ee6-dd36-4e9d-b6e5-452812b51392">
+                            <Add.Item>
+                                <Image SourcePath="assets/pexels-photo.jpg" Opacity="0.6" Id="f12d98c5-163e-4303-8238-4cd015358068" Panel.Bounds="0,0,1280{5,2147483647},1024{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57278ee6-dd36-4e9d-b6e5-452812b51392">
+                            <Add.Item>
+                                <TextBox FontSize="36" FontFamily="Open Sans" Id="040598d1-441b-4b44-9780-ab34c22a2fda" Panel.Bounds="497,298,321{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57278ee6-dd36-4e9d-b6e5-452812b51392">
+                            <Add.Item>
+                                <PasswordBox FontSize="36" FontFamily="Open Sans" Id="0252feba-1181-484e-b9d1-6f3e890ae1d6" Panel.Bounds="497,380,321{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57278ee6-dd36-4e9d-b6e5-452812b51392">
+                            <Add.Item>
+                                <Button Text="Login" Background="#FF383838" Foreground="#FFE2E2E2" FontSize="36" FontFamily="Open Sans" Id="14b91ee8-49bf-493a-9f7a-6ccb94d55793" Panel.Bounds="583,462,149{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/05/2017 17:35:45" Id="6bcf8cd9-88f0-4b71-ac15-343d036d69c5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57278ee6-dd36-4e9d-b6e5-452812b51392">
+                            <Add.Item>
+                                <Title RichText="YOUR PERSONAL ONLINE SHOP" Align="Center" Foreground="#FF383838" FontSize="72" FontFamily="Open Sans" FontStyle="Bold" Opacity="1" Id="df171d92-761d-4f79-b8bc-8c0df91c294e" Panel.Bounds="17,102,1280,99*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57278ee6-dd36-4e9d-b6e5-452812b51392">
+                            <Add.Item>
+                                <Link Text="Forgot password" FontSize="24" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="ca32d876-5d4b-46d6-a17f-f0094ff559e7" Panel.Bounds="629,552,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57278ee6-dd36-4e9d-b6e5-452812b51392">
+                            <Add.Item>
+                                <Link Text="Register" FontSize="24" FontFamily="Open Sans" FontStyle="Underline" Id="166224bf-9f73-4e85-9160-d0cac3382963" Panel.Bounds="497,552,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/Register.screen" Created="11/05/2017 17:34:48" Id="59264538-9081-409b-91da-8f6cabb48446">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
