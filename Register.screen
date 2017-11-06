@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="49c4419f-5699-4fe7-8f6b-c7974d0ed2da">
+                                                                                   Id="49c4419f-5699-4fe7-8f6b-c7974d0ed2da">
     <Page.Content>
         <Content Width="1280" Height="1024" Id="126fa794-f305-4aa0-a676-765ab8edb6d7">
             <Content.Layers>
@@ -65,7 +65,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
                             <Add.Item>
-                                <Button Text="Register" FontSize="18" FontFamily="Source Sans Pro" Id="474c78cd-0667-41a2-84a9-2e4bad6848ba" Name="Register " Panel.Bounds="186,404,144{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Register" FontSize="18" FontFamily="Source Sans Pro" Id="474c78cd-0667-41a2-84a9-2e4bad6848ba" Name="Register " Panel.Bounds="195,432,144{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
