@@ -21,7 +21,55 @@
     <Page.Scenes>
         <Scene Title="Start" Created="11/05/2017 17:34:48" Id="2f6f42b4-ab42-40bf-ae36-fbedc087ceea">
             <Scene.KeyFrames>
-                <KeyFrame Id="a9d7b0b8-7f1f-497b-ab08-2ec6fb43846f" />
+                <KeyFrame Id="a9d7b0b8-7f1f-497b-ab08-2ec6fb43846f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="f5020bd2-38f3-4538-84a4-242aa6f5d785" Panel.Bounds="186,176,153{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <Label RichText="username:" FontFamily="Open Sans" Id="e746c1dd-134b-4e62-b601-e965dc435f32" Panel.Bounds="99,179,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="446b93f1-db6f-424e-904e-239398138c0d" Panel.Bounds="186,219,153{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <Label RichText="email:" FontFamily="Open Sans" Id="7cd1a95c-22f6-4687-b181-333bb7d7ac95" Panel.Bounds="126,222,38{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <Label RichText="password:" FontFamily="Open Sans" Id="d4c31cce-c2ec-4bc3-bbe6-47a96d4d4e58" Panel.Bounds="99,263,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <PasswordBox FontFamily="Open Sans" Id="9cdff9b7-b6d1-476c-ab9e-c63448716900" Panel.Bounds="186,260,153{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <Label RichText="confirm password:" FontFamily="Open Sans" Id="57e96835-7975-444e-8496-76f3552add1f" Panel.Bounds="51,309,163{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <PasswordBox FontFamily="Open Sans" Id="2f88e461-2993-47bf-9009-d3061d9886c5" Panel.Bounds="186,306,153{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="79c33fc1-95f8-4d2c-bc5f-e474e3071d2d">
+                            <Add.Item>
+                                <Button Text="Register" FontSize="18" FontFamily="Source Sans Pro" Id="474c78cd-0667-41a2-84a9-2e4bad6848ba" Name="Register " Panel.Bounds="186,404,144{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
     </Page.Scenes>
