@@ -1,0 +1,149 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   Id="d32dd3cf-80f6-4ac9-9722-1deb111cf46f" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="b7d374fb-d88e-4ade-aa69-7eb8631eb4fd">
+            <Content.Layers>
+                <Layer Id="b3e05248-124d-466a-a83b-7db3553f4640" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="6905d5f8-e843-425b-9597-45ddb66ab329" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="35fbd601-acc3-4f42-8ab1-d9bc44298bd7" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="ceadeef0-3bdd-4193-8e86-03e77f8e297d" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/06/2017 20:18:48" Id="de24ba3d-e250-4a79-982e-be8a1a54b674">
+            <Scene.KeyFrames>
+                <KeyFrame Id="385eff5c-f22c-4bcf-a023-1ad1fb80da62">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <BootstrapBox Id="92adcce0-2d49-423e-9408-172d7b929b90" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="df9c860a-a7e7-4f84-be7a-ff6955d1269e">
+                                            <BootstrapContainer.Children>
+                                                <Row Id="9398afe3-9b35-47cd-bd99-d5b60064f852">
+                                                    <Row.Children>
+                                                        <Column Id="6134e43c-d996-4b30-a5cd-8299fdb64dbf" BootstrapContainer.SpanSm="12">
+                                                            <Column.Children>
+                                                                <Title RichText="Details" FontFamily="Open Sans" Id="228f2a58-34df-4321-8648-b4ca485a34db" BootstrapContainer.SpanMd="12" BootstrapContainer.OffsetMd="0" Panel.Bounds="349,26,5*{5,2147483647},55{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="fae7abda-f65c-4691-9a6f-a99f19ae3b1a">
+                                                    <Row.Children>
+                                                        <Column Id="a65f781b-0881-4629-a09a-b2e1afcdc0ea" BootstrapContainer.SpanSm="4">
+                                                            <Column.Children>
+                                                                <Image Id="d839d142-6bb3-424c-bcae-e2dbe031fc66" BootstrapContainer.SpanMd="11" Panel.Bounds="58,40,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="9f0352bc-1c0f-4214-a85d-c8790823097b" BootstrapContainer.SpanSm="4">
+                                                            <Column.Children>
+                                                                <Title RichText="Ad Name" FontFamily="Open Sans" Id="988bfcda-16d3-4f56-990b-559ed6b91108" Panel.Bounds="31,35,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="b48a62bb-552b-4e61-995e-d08e9d1621eb" BootstrapContainer.SpanSm="4" />
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="21c7d781-b909-49e4-974c-357bbaea5f3b">
+                                                    <Row.Children>
+                                                        <Column Id="e34a4da1-1332-4c64-975f-b38b63408bbf" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Text Label or Paragraph" FontFamily="Open Sans" IsVisible="False" Id="bab7991d-1d44-4901-ae1e-937aba0573a6" Panel.Bounds="416,262,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Autor" FontFamily="Open Sans" Id="083982e9-e6ef-45d2-90c7-fd086107f69a" BootstrapContainer.SpanMd="7" BootstrapContainer.OffsetMd="5" Panel.Bounds="349,154,315{5,2147483647},40{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Information" FontFamily="Open Sans" Id="7f6f1bb9-69e6-495b-a1c7-0e58268e5079" Panel.Bounds="4,201,998{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Button Text="Add Comment" FontFamily="Open Sans" Id="5d928fb2-f969-40fa-841f-edbbc84a4d7c" Panel.Bounds="544,326,224{5,2147483647},105{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="373a3cbb-2b78-486e-b4ef-18699a134d42" Created="11/07/2017 05:10:18" Id="9d948498-0df2-413d-b2b0-49f7f2f9aea5" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Title RichText="Comments" FontFamily="Open Sans" Id="7c28d586-98aa-4cac-89b9-386541ea8968" Panel.Bounds="31,323,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Comments " FontFamily="Open Sans" Id="bf3b7f09-e9f5-4fb3-8d97-8aeea1dec1fc" Panel.Bounds="31,410,372{5,2147483647},326{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="b7d374fb-d88e-4ade-aa69-7eb8631eb4fd" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Add Comment" StateGroup="de24ba3d-e250-4a79-982e-be8a1a54b674" ParentScene="de24ba3d-e250-4a79-982e-be8a1a54b674" Created="11/07/2017 05:10:18" Id="373a3cbb-2b78-486e-b4ef-18699a134d42">
+            <Scene.KeyFrames>
+                <KeyFrame Id="165c8e80-3a8e-4456-80b4-2e8dca2aac0d">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Text Label or Paragraph" FontFamily="Open Sans" IsVisible="False" Id="13135262-b56f-49d9-adc4-a9935c54333b" Panel.Bounds="522,468,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <TextBox Text="your comment" FontFamily="Open Sans" Id="fb9e6450-3dc1-41a9-a26f-f88daadb35af" Panel.Bounds="37,406,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Comments" FontSize="24" FontFamily="Open Sans" Id="f3fe51db-1ca4-4132-91e1-bdc39f74129c" Panel.Bounds="40,338,0*,0*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Button Text="Submit" FontFamily="Open Sans" Id="5d46c7bf-8a41-4905-be4d-603317c1ba13" Panel.Bounds="194,400,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="de24ba3d-e250-4a79-982e-be8a1a54b674" Created="11/07/2017 05:13:40" Id="12ea6fb6-5f8b-43e2-8185-68587b7b9994" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Other users&#xD;&#xA; comments" FontFamily="Open Sans" Id="232c9b45-7179-4247-bbdc-25816a10d83e" Panel.Bounds="31,475,375{5,2147483647},239{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="555,371" Target="5d928fb2-f969-40fa-841f-edbbc84a4d7c" />
+                        <Set Property="Control.IsVisible" Value="False" Target="5d928fb2-f969-40fa-841f-edbbc84a4d7c" />
+                        <Move To="37,202" Target="7f6f1bb9-69e6-495b-a1c7-0e58268e5079" />
+                        <Resize To="951,100" Target="7f6f1bb9-69e6-495b-a1c7-0e58268e5079" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
