@@ -101,16 +101,26 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
                             <Add.Item>
-                                <Label RichText="Author" FontFamily="Open Sans" Id="e4ec8c0e-9594-4d30-955f-7b167d49414c" Panel.Bounds="31,413,5*{5,2147483647},5*{5,2147483647}">
-                                    <Label.MouseOver>
-                                        <CommandSwitchTo SceneId="c983426b-d513-4d9f-8e29-657d2f83435c" AutoRevertEvent="Control.MouseOut" Created="11/07/2017 05:44:38" Id="409997ca-868b-4aee-9614-ddb1f3a21f5f" />
-                                    </Label.MouseOver>
-                                </Label>
+                                <Button Text="Properties" FontFamily="Open Sans" Id="f6819787-02b2-4209-96ab-1b5d909aa9dd" Panel.Bounds="692,93,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
                             <Add.Item>
-                                <Label RichText="Comment" FontFamily="Open Sans" Id="96c2476a-7c31-4687-a750-a6f5cc94f32b" Panel.Bounds="110,413,5*{5,2147483647},5*{5,2147483647}" />
+                                <Button Text="Request promotion" FontFamily="Open Sans" Id="283e4e6a-f44f-49a8-ad68-097cd5b69e17" Panel.Bounds="692,141,142{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Comment" FontFamily="Open Sans" Id="0f2d9f61-5418-4f60-a2d1-509fc1764ac5" Panel.Bounds="111,442,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
+                            <Add.Item>
+                                <Label RichText="Autor" FontFamily="Open Sans" Id="365e1711-0c53-4bee-b906-c38d1833034d" Panel.Bounds="38,442,5*{5,2147483647},5*{5,2147483647}">
+                                    <Label.MouseOver>
+                                        <CommandSwitchTo SceneId="58f96cf5-6a31-4ce6-b267-676f69e37b80" AutoRevertEvent="Control.MouseOut" Created="11/07/2017 05:41:20" Id="fc0af15d-85b4-4711-9d54-6be8fb0ff046" />
+                                    </Label.MouseOver>
+                                </Label>
                             </Add.Item>
                         </Add>
                         <Set Property="Content.AutoHeight" Value="True" Target="b7d374fb-d88e-4ade-aa69-7eb8631eb4fd" />
@@ -159,13 +169,13 @@
                 </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Hovering Author" ParentScene="de24ba3d-e250-4a79-982e-be8a1a54b674" Created="11/07/2017 05:44:38" Id="c983426b-d513-4d9f-8e29-657d2f83435c">
+        <Scene Title="Hovering Autor" ParentScene="de24ba3d-e250-4a79-982e-be8a1a54b674" Created="11/07/2017 05:41:20" Id="58f96cf5-6a31-4ce6-b267-676f69e37b80">
             <Scene.KeyFrames>
-                <KeyFrame Id="5663e739-36b8-47ee-8019-176248800939">
+                <KeyFrame Id="000f044b-c27c-42b6-b313-40904898ade7">
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="b3e05248-124d-466a-a83b-7db3553f4640">
                             <Add.Item>
-                                <Label RichText="Name: @Name&#xD;&#xA;Email: @Email&#xD;&#xA;Phone number: @PhoneNumber" FontFamily="Open Sans" Id="86e2a7d4-7001-466e-ab69-9bcdbfc92dad" Panel.Bounds="208,413,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Name : @Name&#xD;&#xA;Email: @Email&#xD;&#xA;Phone number: @phoneNumber" FontFamily="Open Sans" Id="2f0cf688-1f06-46f1-92bc-6c7e4a51e09a" Panel.Bounds="218,430,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

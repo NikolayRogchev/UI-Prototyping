@@ -1,0 +1,125 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   Id="5b16afb7-bd2b-4c3d-8cc3-3924cdf705b4" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="e0550c9f-6f08-4473-96dc-b2bfef767ef8">
+            <Content.Layers>
+                <Layer Id="69059747-cb5c-4f42-84bf-b2b642dceed3" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="43d742e5-b7f6-41b3-924a-77b54e1e0038" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="b789b8bf-b4cb-4d09-8c9a-21a5ffc897b1" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="acf49840-ef53-4f18-a981-281189573a55" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/07/2017 05:46:25" Id="36ce7fe4-e577-496b-b8dd-7d2a6f0df290">
+            <Scene.KeyFrames>
+                <KeyFrame Id="6f593b3c-ca96-4245-a157-ab3d233dff60">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <BootstrapBox Id="702b7050-2e7c-45cb-93c7-8174db49e6d6" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="b0747867-d2db-41eb-a90c-3ec788b6e355">
+                                            <BootstrapContainer.Children>
+                                                <Row Id="a1253405-61a1-432d-b6f6-a00a6a50563f">
+                                                    <Row.Children>
+                                                        <Column Id="62401b9d-ed72-435c-a016-6758701f1fbd" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="7bc4ef34-e234-4ce0-832c-b133284a9a01">
+                                                    <Row.Children>
+                                                        <Column Id="455ef65f-7036-4ada-bfc0-d865dd24d8a5" BootstrapContainer.SpanMd="12" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <Title RichText="Create Ad" FontFamily="Open Sans" Id="7f73cda5-0b9f-4889-ad54-374913c81011" Panel.Bounds="32,139,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <Label RichText="Title" FontSize="24" FontFamily="Open Sans" Id="3b4d7360-7b66-4e80-880f-f81054f16cfd" Panel.Bounds="31,252,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="04142612-1245-4bed-b210-0aa6c613fa3a" Panel.Bounds="178,244,316{5,2147483647},48{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <Label RichText="Information" FontSize="24" FontFamily="Open Sans" Id="84718ccd-9f01-4f31-bd75-c624f49e7d41" Panel.Bounds="31,326,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="a651d65f-d913-4ac0-81dd-9363754806cc" Panel.Bounds="178,318,316{5,2147483647},98{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <Label RichText="Upload photo" FontSize="24" FontFamily="Open Sans" Id="998dcdd1-8b85-4e48-9487-93419af0deec" Panel.Bounds="32,526,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <Button Text="Browse" FontFamily="Open Sans" Id="538d95ed-92e0-44f5-988e-f86c7863ff53" Panel.Bounds="414,526,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="c5b38577-c7ba-4b06-918c-7b554ea54a09" Panel.Bounds="217,526,180{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <Button Text="Submit" FontFamily="Open Sans" Id="a3ece60b-739b-454a-ac4d-8a5d8dfe867e" Panel.Bounds="217,631,191{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="f841ebb1-f561-4c1b-ba3d-e157bf223c85" Created="11/07/2017 05:53:35" Id="a959e320-df40-4276-8752-e46505932490" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="e0550c9f-6f08-4473-96dc-b2bfef767ef8" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Submit" StateGroup="36ce7fe4-e577-496b-b8dd-7d2a6f0df290" ParentScene="36ce7fe4-e577-496b-b8dd-7d2a6f0df290" Created="11/07/2017 05:53:35" Id="f841ebb1-f561-4c1b-ba3d-e157bf223c85">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7dcac19a-d41c-42a6-8815-eded6426568e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="69059747-cb5c-4f42-84bf-b2b642dceed3">
+                            <Add.Item>
+                                <Title RichText="Ad Successfully Created!" FontFamily="Open Sans" Id="7bf647c5-b7ee-4481-94fc-5b1a9113e0fe" Panel.Bounds="304,404,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="3b4d7360-7b66-4e80-880f-f81054f16cfd" />
+                        <Remove Target="04142612-1245-4bed-b210-0aa6c613fa3a" />
+                        <Remove Target="84718ccd-9f01-4f31-bd75-c624f49e7d41" />
+                        <Remove Target="a651d65f-d913-4ac0-81dd-9363754806cc" />
+                        <Remove Target="998dcdd1-8b85-4e48-9487-93419af0deec" />
+                        <Remove Target="c5b38577-c7ba-4b06-918c-7b554ea54a09" />
+                        <Remove Target="538d95ed-92e0-44f5-988e-f86c7863ff53" />
+                        <Remove Target="a3ece60b-739b-454a-ac4d-8a5d8dfe867e" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
