@@ -1,0 +1,89 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="c5baf35e-0121-4103-9276-1ae2080c5c20">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="7695c7f9-6d15-4bf4-bd8f-1681d759c06a">
+            <Content.Layers>
+                <Layer Id="e8f48d57-3c52-4156-9cb0-a947277c2af0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a72c367c-2cf5-45ea-b613-4a97a916a514" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="184036a0-ba9b-4489-b0b5-8161b7bbb2a8" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="65cd6685-ebd7-4552-817e-39dcea113cbd" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/07/2017 06:23:50" Id="7f6d115e-ac39-4bdf-9e1b-8d98644a58a6">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4956a67b-c5a3-4cc1-981d-dd510cc962c5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Title RichText="Ad Title" FontFamily="Open Sans" Id="a0e76e3a-227f-4ed4-8a2c-503e04843cc3" Panel.Bounds="187,98,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Title RichText="Autor" FontSize="24" FontFamily="Open Sans" Id="fa95c1ab-4e49-4e38-8efe-e66411fb069b" Panel.Bounds="215,173,5*{5,2147483647},5*{5,2147483647}">
+                                    <Title.Click>
+                                        <CommandNavigate Screen="/Screen5.screen" Created="11/07/2017 06:27:39" Id="d404ccc2-32a7-44d3-91b9-0a3f3f166a8c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Title.Click>
+                                </Title>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Label RichText="Information" FontSize="36" FontFamily="Open Sans" Id="1fd05a2f-f670-49e8-a455-56586a514826" Panel.Bounds="146,234,200*{5,2147483647},201{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Button Text="Promote Ad" FontFamily="Open Sans" Id="91754952-7ff4-4bb0-a51b-ba1e28a7a33a" Panel.Bounds="759,110,145{5,2147483647},76{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Button Text="Delete Ad" FontFamily="Open Sans" Id="2f98214e-f992-4188-91ac-0714ef44396b" Panel.Bounds="761,234,141{5,2147483647},82{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Title RichText="Comments" FontFamily="Open Sans" Id="e9a775f0-1741-4609-9678-3b54e9d40091" Panel.Bounds="54,352,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Label RichText="Autor" FontSize="18" FontFamily="Open Sans" Id="6456b077-a3d5-4ca6-8444-269e518b80dc" Panel.Bounds="54,435,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Label RichText="Comment" FontSize="24" FontFamily="Open Sans" Id="bd0f922f-b9b6-4e82-b47f-eb83dc076542" Panel.Bounds="140,431,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Button Text="Delete Comment" FontFamily="Open Sans" Id="514df1ca-34a5-4ede-8b93-c172b6434162" Panel.Bounds="308,431,134{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e8f48d57-3c52-4156-9cb0-a947277c2af0">
+                            <Add.Item>
+                                <Image Id="072f8b4d-1adf-47c6-b00b-92cce97e7646" Panel.Bounds="469,110,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

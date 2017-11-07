@@ -1,0 +1,81 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="09e68491-e301-4a9b-9495-65b0fd96a1d0">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="dad55d08-1e9a-4cdd-a5b9-757b5a8021c9">
+            <Content.Layers>
+                <Layer Id="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="771f768f-c16c-4a8f-8e66-caf442e4c930" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="e7db0212-9a7f-4fa7-a715-f966d8f1db58" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="4ff5ebb1-88be-4cae-ad1d-944f52a326f4" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/07/2017 06:27:39" Id="a69fa562-8c06-495d-a516-a16a1d769e00">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e4869d46-79dc-44b9-b2ce-24d464b35fb1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc">
+                            <Add.Item>
+                                <Title RichText="Name" FontFamily="Open Sans" Id="9cf75a72-f527-4c3a-bf0f-b73ef2e2e77b" Panel.Bounds="165,252,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc">
+                            <Add.Item>
+                                <Label RichText="Email" FontSize="24" FontFamily="Open Sans" Id="0fd4a59b-8885-48b2-b75a-b4a80c2cfdb5" Panel.Bounds="165,309,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc">
+                            <Add.Item>
+                                <Label FontFamily="Open Sans" Id="836c31da-b567-4bfc-bceb-ae54dc23e7cf" Panel.Bounds="165,423,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc">
+                            <Add.Item>
+                                <Title RichText="Ads From This User" FontSize="24" FontFamily="Open Sans" Id="d6b4f289-9b2a-40f2-b6ed-c7ef29f02a92" Panel.Bounds="165,383,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc">
+                            <Add.Item>
+                                <ContainerBox Id="2d18fd3e-5349-4a78-b60f-442bbc2c5243" Panel.Bounds="165,440,206{5,2147483647},280{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="4990ff7c-03f0-4ea9-877c-572552792e3f" />
+                                    </ContainerBox.Content>
+                                    <ContainerBox.Click>
+                                        <CommandNavigate Screen="/AdDetailsAdmin.screen" Created="11/07/2017 06:37:18" Id="2358d3fa-f2b5-4660-84f0-50481876e8d2">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ContainerBox.Click>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc">
+                            <Add.Item>
+                                <ContainerBox Id="3d7e35a6-77db-475a-9829-5e02c918d94d" Panel.Bounds="401,440,217{5,2147483647},280{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="515611a3-1b79-496e-a6f5-68611a761c9a" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="52bd10e8-c9f4-46da-b224-08ae3e6d0fbc">
+                            <Add.Item>
+                                <Button Text="Ban User" FontFamily="Open Sans" Id="8a90963e-1bf1-4a58-932f-d4f95423335e" Panel.Bounds="556,258,131{5,2147483647},65{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
